@@ -31,7 +31,7 @@ export default function AdoptionForm() {
     const navigate = useNavigate();
 
     const imageRef = useRef();
-    const db_url = "http://localhost:3000/adoption";
+    const db_url = "https://petplace-backend.onrender.com/adoption";
 
     const nameRef = useRef();
     const ageRef = useRef();

@@ -11,7 +11,7 @@ export default function Dashboard() {
     const navigate = useNavigate();
     useEffect(() => {
         axios
-            .get("http://localhost:3000/adoption")
+            .get("https://petplace-backend.onrender.com/adoption")
             .then((res) => {
                 console.log(res.data);
                 setPetsForAdoption(res.data);
